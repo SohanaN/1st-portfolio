@@ -1,0 +1,142 @@
+body{
+    font-family: 'Mulish', sans-serif;   
+    margin: 0;
+}
+h1{
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.title-color{
+    color: hotpink;
+}
+.header-title{    
+    border-left: 5px solid pink;    
+}
+.header-title h1{
+    padding-left: 15px;
+}
+.header img{
+    margin-top: 20px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;    
+    background-image: linear-gradient(rgb(226, 151, 164),rgb(252, 144, 144));
+    color: white;
+    font-weight: 800;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.link-button:hover{
+    color:rgb(204, 48, 74);
+    cursor: pointer;
+    background-image: linear-gradient(pink, hotpink);
+}
+
+.skills h1{
+    text-align: center;
+    color: #631919;
+}
+.tech-skill{
+    color: #cf4b4b;
+}
+.skills-item{
+    width: 40%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px rgb(119, 100, 100);
+    border-radius: 6px;   
+}
+#web-dev{
+    background-color: #e7f5e7;
+    border-image: linear-gradient(pink, rgb(211, 108, 108));
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+#web-dev h2{
+    color: rgb(16, 70, 52);
+}
+#graphics{
+    background-color: #f5dfdf;
+    border-image: linear-gradient(hotpink, #ffefef, #cf6d6d);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+#graphics h2{
+    color: rgb(228, 70, 70);
+}
+#autocad{
+    background-color: #dcdffa;
+    border-image: linear-gradient(hotpink, #ffabab);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+#autocad h2{
+    color: rgb(1, 27, 77);
+}
+.about-me{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.edu-hobby img{
+    border-radius: 40%;
+} 
+.contact{
+    text-align: center;
+}
+.container {
+    border-radius: 5px;
+    background-color: #d39797;
+    padding: 20px;
+    width: 50%;
+    margin: 10px auto;
+    font-weight: bold;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }  
+  .contact button{
+      color: #fff;
+      background: #ff0140;
+      border: none;
+      padding: 10px 20px;
+  }
+  .contact button:hover{
+      cursor: pointer;
+      color: #ddc7d5;
+      background: #6e0032;
+  }
+footer{
+    background: #181111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer span{
+    color: #b42c2c;
+}
+footer h1{
+    font-size: 30px;
+}
